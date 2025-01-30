@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-lg">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between">
+        <div class="flex space-x-7">
+          <a href="#" class="flex items-center py-4 px-2">
+            <span class="font-semibold text-gray-500 text-lg">My Portfolio</span>
+          </a>
+        </div>
+        <div class="hidden md:flex items-center space-x-1">
+          <a href="#about" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">About</a>
+          <a href="#projects" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Projects</a>
+          <a href="#skills" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Skills</a>
+          <a href="#contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-500 text-white py-20">
+    <div class="container mx-auto text-center">
+      <h1 class="text-5xl font-bold">Hello, I'm Hanan Fayyaz</h1>
+      <p class="mt-4 text-xl">A passionate web developer building amazing experiences.</p>
+      <a href="#projects" class="mt-8 inline-block bg-white text-blue-500 py-2 px-6 rounded-full font-semibold hover:bg-gray-100">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2">
+          <img src="https://via.placeholder.com/400" alt="Profile" class="rounded-lg shadow-lg">
+        </div>
+        <div class="md:w-1/2 mt-8 md:mt-0 md:ml-8">
+          <p class="text-lg leading-relaxed">
+            Hi, I'm John Doe, a web developer with over 5 years of experience in building scalable and user-friendly web applications. I specialize in front-end development using modern technologies like React, Tailwind CSS, and JavaScript.
+          </p>
+          <p class="mt-4 text-lg leading-relaxed">
+            I love turning ideas into reality and solving complex problems with clean and efficient code. Let's build something amazing together!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-200 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x200" alt="Project 1" class="w-full">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Project 1</h3>
+            <p class="text-gray-700">A brief description of the project and the technologies used.</p>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x200" alt="Project 2" class="w-full">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Project 2</h3>
+            <p class="text-gray-700">A brief description of the project and the technologies used.</p>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://via.placeholder.com/400x200" alt="Project 3" class="w-full">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Project 3</h3>
+            <p class="text-gray-700">A brief description of the project and the technologies used.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="text-6xl text-blue-500">💻</div>
+          <h3 class="text-xl font-bold mt-4">Web Development</h3>
+        </div>
+        <div class="text-center">
+          <div class="text-6xl text-blue-500">🎨</div>
+          <h3 class="text-xl font-bold mt-4">UI/UX Design</h3>
+        </div>
+        <div class="text-center">
+          <div class="text-6xl text-blue-500">🚀</div>
+          <h3 class="text-xl font-bold mt-4">Performance Optimization</h3>
+        </div>
+        <div class="text-center">
+          <div class="text-6xl text-blue-500">🔧</div>
+          <h3 class="text-xl font-bold mt-4">Debugging</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-blue-500 text-white py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+      <form class="max-w-lg mx-auto">
+        <div class="mb-4">
+          <label for="name" class="block text-sm font-medium">Name</label>
+          <input type="text" id="name" class="w-full px-4 py-2 rounded-lg text-gray-800" placeholder="Your Name">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-sm font-medium">Email</label>
+          <input type="email" id="email" class="w-full px-4 py-2 rounded-lg text-gray-800" placeholder="Your Email">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-sm font-medium">Message</label>
+          <textarea id="message" class="w-full px-4 py-2 rounded-lg text-gray-800" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-white text-blue-500 py-2 px-6 rounded-full font-semibold hover:bg-gray-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+   <div class="max-w-4xl mx-auto my-20 p-6 bg-white rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+    <div class="flex flex-col md:flex-row">
+      <!-- Image Section -->
+      <div class="md:w-1/2">
+        <img src="https://via.placeholder.com/400x300" alt="Project Image" class="rounded-lg w-full h-full object-cover">
+      </div>
+      <!-- Content Section -->
+      <div class="md:w-1/2 md:ml-8 mt-6 md:mt-0">
+        <h2 class="text-3xl font-bold text-gray-800">Project Title</h2>
+        <p class="mt-4 text-gray-600">
+          A brief description of the project. Highlight the key features, technologies used, and the problem it solves. Keep it concise and engaging.
+        </p>
+        <!-- Tags (Technologies Used) -->
+        <div class="mt-4 flex flex-wrap gap-2">
+          <span class="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">React</span>
+          <span class="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full">Tailwind CSS</span>
+          <span class="bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full">Node.js</span>
+        </div>
+        <!-- Call-to-Action Button -->
+        <div class="mt-6">
+          <a href="#" class="inline-block bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300">
+            View Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 Hanan Fayyaz. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
